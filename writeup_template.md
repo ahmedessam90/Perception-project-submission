@@ -32,9 +32,9 @@
 
 [//]: # (Image References)
 
-[image1]: ./images/Segmentation.PNG
-[image2]: ./images/Clustering.PNG
-[image3]: ./images/Object_recognition.PNG
+[image1]: ./images/Segmentation.png
+[image2]: ./images/Clustering.png
+[image3]: ./images/Object_recognition.png
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
 
@@ -153,7 +153,6 @@ You're reading it!
     cloud_objects = cloud_filtered.extract(inliers, negative=True)
     print('Segmentation')
     
-
 ![alt text][image1]
 
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
