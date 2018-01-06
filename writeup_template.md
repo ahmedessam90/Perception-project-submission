@@ -30,6 +30,12 @@
 ---
 ### Writeup / README
 
+[//]: # (Image References)
+
+[image1]: ./images/Segmentation.PNG
+[image2]: ./images/Clustering.PNG
+[image3]: ./images/Object_recognition.PNG
+
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
 
 You're reading it!
@@ -148,6 +154,8 @@ You're reading it!
     print('Segmentation')
     
 
+![alt text][image1]
+
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
 ##### Clustering
@@ -185,6 +193,7 @@ You're reading it!
     cluster_cloud.from_list(color_cluster_point_list)
     print('Clustering')
  
+![alt text][image2]
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 ##### Object Recognotion
@@ -226,7 +235,7 @@ You're reading it!
     rospy.loginfo('Detected {} objects: {}'.format(len(detected_objects_labels), detected_objects_labels))
 
 
-![demo-1](https://user-images.githubusercontent.com/20687560/28748231-46b5b912-7467-11e7-8778-3095172b7b19.png)
+![alt text][image3]
 
 ### Pick and Place Setup
 
@@ -286,9 +295,6 @@ You're reading it!
 
     send_to_yaml('output_3.yaml',dict_list)
 
-
-
-![demo-2](https://user-images.githubusercontent.com/20687560/28748286-9f65680e-7468-11e7-83dc-f1a32380b89c.png)
 
 Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further.  
 
